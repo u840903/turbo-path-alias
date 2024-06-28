@@ -16,3 +16,8 @@ The web app picks up `../../packages/ui/src/input.tsx`
 and doesn't understand the node path `"#deps/primitive/base-input"`
 which results in `Cannot find module `#deps/primitive/base-input' or its corresponding type declarations.`
 
+### This does NOT work
+```
+pnpm run build
+```
+
