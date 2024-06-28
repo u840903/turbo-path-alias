@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "imports": {
-    "#deps*": "./src/*"
+    "#deps*": "./src/*.tsx"
   },
   "exports": {
     "./button": "./src/button.tsx",
