@@ -1,5 +1,5 @@
 import { InputHTMLAttributes } from "react";
-import { BaseInput } from "#/primitive/base-input";
+import { BaseInput } from "#deps/primitive/base-input";
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   name: string;
